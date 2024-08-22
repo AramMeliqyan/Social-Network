@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  background: black;
+  padding: 20px;
+}
+
+nav a {
+  color: white;
+  padding: 5px 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: coral
+}
+
+nav a.active {
+  background: coral;
+}
+
+1:32 v 1:32 * {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  background: black;
+  padding: 20px;
+}
+
+nav a,
+nav button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 5px 15px;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav button:hover {
+  color: coral
+}
+
+nav a.active {
+  background: coral;
+}
